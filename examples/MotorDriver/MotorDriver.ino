@@ -6,7 +6,7 @@
  Ena1 and Ena2 are Enable pin 1 and Enable Pin 2 Respectfully.
  M1,M2,M3,M4 are motor pin 1 ,pin 2,pin 3, and pin 4 respectfully.
 */
-Motor Driver1 = Motor(10,2,3,4,5,11); //Motor(Ena1,M1,M2,M3,M4,Ena2)
+Motor Driver1(10,2,3,4,5,11); //Motor(Ena1,M1,M2,M3,M4,Ena2)
 
 //Motor Driver2 = Motor(*,*,*,*,*,*); You can add a second Motor Driver or as many Motor Drivers.
 
